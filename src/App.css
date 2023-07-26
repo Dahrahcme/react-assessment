@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.calculator {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  text-align: center;
+  background: rgb(78, 78, 141);
+}
+
+.display {
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  background-color: #F7F7F7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 13px;
+  margin-top: 15px;
+}
+
+button {
+  font-size: 25px;
+  padding: 8px;
+  background-color: #F0F0F0;
+  border: 1.5px solid #8f8d8d;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d1d6bc;
+}
+
+.clear{
+  margin-top: 10px;
+  width: 100%;
+}
