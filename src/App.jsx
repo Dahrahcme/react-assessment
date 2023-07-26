@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import "./App.css"
 
 const App = () => {
-  const [myDisplay, setMyDisplay] = useState('');
+  const [myDisplay, setMyDisplay] = useState('0');
   const [myExpression, setMyExpression] = useState('');
   const handleEvent = (value) => {
     if (value === '=') {
